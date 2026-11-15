@@ -78,3 +78,8 @@ python3 -m pip install --upgrade pip setuptools wheel
 ## Notes
 
 If your OpenAI account uses a different deployment name than `gpt-5.6-luna`, update `OPENAI_MODEL` in the environment before running the app.
+
+
+<img width="1918" height="949" alt="image" src="https://github.com/user-attachments/assets/7fafb12f-0e15-4fce-8e67-315d9492d6e8" />
+
+
