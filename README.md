@@ -63,7 +63,7 @@ Expected response:
 ## How to run
 
 1. Create a virtual environment and install dependencies:
-   `pip install -r requirements.txt`
+   `pip3 install -r requirements.txt`
 2. Copy `.env.example` to `.env` and add your OpenAI API key.
 3. Start the API server:
    `python3 -m uvicorn api_app:app --host 0.0.0.0 --port 8000`
@@ -71,6 +71,9 @@ Expected response:
    `python3 -m streamlit run streamlit_app.py --server.headless true --server.port 8501`
 5. Optional: run the MCP server:
    `python mcp_server.py`
+
+## Upgrade pip, setuptools, and wheel (Building wheel for pillow (pyproject.toml) did not run successfully)
+python3 -m pip install --upgrade pip setuptools wheel
 
 ## Notes
 
