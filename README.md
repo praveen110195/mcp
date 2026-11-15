@@ -66,9 +66,9 @@ Expected response:
    `pip install -r requirements.txt`
 2. Copy `.env.example` to `.env` and add your OpenAI API key.
 3. Start the API server:
-   `uvicorn api_app:app --host 0.0.0.0 --port 8000`
+   `python3 -m uvicorn api_app:app --host 0.0.0.0 --port 8000`
 4. Start the Streamlit app:
-   `streamlit run streamlit_app.py --server.port 8501`
+   `python3 -m streamlit run streamlit_app.py --server.headless true --server.port 8501`
 5. Optional: run the MCP server:
    `python mcp_server.py`
 
